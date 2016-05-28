@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import telebot
 from telebot import types
-bot = telebot.TeleBot('your bot token')
+bot = telebot.TeleBot('213470949:AAE8wpC-C1SdsTohXak4AuUQhCDDX_7zUVE')
         
 @bot.callback_query_handler(func=lambda call: True)
 def callback(call):
